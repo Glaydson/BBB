@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Novo Cliente BBB</title>
+<style type="text/css">
+.padrao {
+	color: blue;
+	font-family: tahoma;
+	font-style: bold;
+}
+</style>
+</head>
+<body>
+<h1 style="color: blue; font-size: 350%;">BBB</h1>
+<h2 style="color: white; background-color: black;">Entretenimento</h2>
+<h2>Cadastro de Cliente</h2>
+<form action="CadastrarClienteServlet" method="post">
+<table border="0" class="padrao">
+	<tr>
+		<td>Nome Completo:<br>
+		<input type="text" name="nome" size="40"></td>
+		<td>Endereço:<br>
+		<input type="text" name="endereco" size="40"></td>
+	</tr>
+	<tr>
+		<td>Telefone:<br>
+		<input type="text" name="telefone" size="16"></td>
+		<td>Data de Nascimento:<br>
+		<input type="text" name="dataNascimento" size="10"></td>
+	</tr>
+	<tr>
+		<td>E-mail:<br>
+		<input type="text" name="email" size="40"></td>
+		<td>Confirmação de E-mail:<br>
+		<input type="text" name="emailConfirmacao" size="40"></td>
+	</tr>
+	<tr>
+		<td>Senha:<br>
+		<input type="text" name="senha" size="10"></td>
+		<td>Confirmação de Senha:<br>
+		<input type="text" name="senhaConfirmacao" size="10"></td>
+	</tr>
+</table>
+<input type="submit" value="Cadastrar" />
+</form>
+</body>
+</html>
